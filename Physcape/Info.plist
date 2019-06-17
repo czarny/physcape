@@ -25,12 +25,12 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2019 Krzysztof Czarnota. All rights reserved.</string>
+	<string>Copyright © 2019 czarny. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
-    <key>LSUIElement</key>
-    <true/>
+	<key>LSUIElement</key>
+	<true/>
 </dict>
 </plist>

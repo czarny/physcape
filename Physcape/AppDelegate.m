@@ -48,6 +48,12 @@
 }
 
 
+- (IBAction)onAbout:(id)sender {
+    [[NSApplication sharedApplication] activateIgnoringOtherApps:YES];
+    [[NSApplication sharedApplication] orderFrontStandardAboutPanel:sender];
+}
+
+
 - (void)mapESC {
     IOHIDEventSystemClientRef system;
     CFArrayRef services;

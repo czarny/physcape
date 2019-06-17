@@ -19,6 +19,12 @@
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu id="xwr-ef-Naj">
             <items>
+                <menuItem title="About" id="CcH-m8-XDF">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="onAbout:" target="Voe-Tx-rLC" id="USw-Wd-sxk"/>
+                    </connections>
+                </menuItem>
                 <menuItem title="Quit Physcape" keyEquivalent="q" id="dez-yz-yaz">
                     <connections>
                         <action selector="onQuit:" target="Voe-Tx-rLC" id="XJE-1e-uvy"/>
