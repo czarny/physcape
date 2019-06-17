@@ -34,6 +34,8 @@
     self.statusItem.menu = self.statusMenu;
     
     [self mapESC];
+    
+    [[[NSWorkspace sharedWorkspace] notificationCenter] addObserver: self selector: @selector(onWorkspaceWake:) name: NSWorkspaceDidWakeNotification object: NULL];
 }
 
 
@@ -95,6 +97,11 @@
     
     CFRelease(services);
     CFRelease(system);
+}
+
+
+- (void)onWorkspaceWake:(NSNotification *)note {
+    [self mapESC];
 }
 
 
